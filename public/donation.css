@@ -1,0 +1,70 @@
+/* Style the donation form */
+.Donation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form labels */
+  .Donation label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+  }
+  
+  /* Style the form input fields */
+  .Donation input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the form button */
+  .Donation button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the form button on hover */
+  .Donation button:hover {
+    background-color: #16a085;
+  }
+  
+  /* Style form field when focused */
+  .Donation input[type="text"]:focus {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.3);
+  }
+  
+  /* Style form error messages */
+  .Donation .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: left;
+  }
+  
