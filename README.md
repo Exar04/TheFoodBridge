@@ -25,21 +25,6 @@ You can checkout our video submission demo on youtube by clicking on the snapsho
 │
 └───queries
 ```
-#### Constants
-This project uses 'Poppins' as it's primary font, with weights of 400 and 600. All the fonts have been pre-imported.
-
-```
-base            : FAFAFAF
-primary         : EE466E
-primaryAccent   : bd284b
-inactive        : 9E9E9E
-primary2        : 6246EE
-primary2Accent  : 3a21b8
-inputFields     : F3F3F3
-medicineCard    : FDA8F3
-text            : 000000
-textSecondary   : 828282
-```
 
 #### Designs
 All the design/mockups for the app have been added in the `designs` directory. You can use those for reference.
